@@ -20,6 +20,7 @@
 		032BE048283FAAB700E3F52C /* ThirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 032BE047283FAAB700E3F52C /* ThirdViewController.swift */; };
 		032BE04B283FACC400E3F52C /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 032BE04A283FACC400E3F52C /* Constant.swift */; };
 		032BE04E283FAD9600E3F52C /* FourthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 032BE04D283FAD9600E3F52C /* FourthViewController.swift */; };
+		032BE057283FBB0200E3F52C /* FeatureViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 032BE056283FBB0200E3F52C /* FeatureViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +58,7 @@
 		032BE047283FAAB700E3F52C /* ThirdViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdViewController.swift; sourceTree = "<group>"; };
 		032BE04A283FACC400E3F52C /* Constant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
 		032BE04D283FAD9600E3F52C /* FourthViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FourthViewController.swift; sourceTree = "<group>"; };
+		032BE056283FBB0200E3F52C /* FeatureViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeatureViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +112,7 @@
 				030982022835C2D9005E34F4 /* AppDelegate.swift */,
 				030982042835C2D9005E34F4 /* SceneDelegate.swift */,
 				030982062835C2D9005E34F4 /* ViewController.swift */,
+				032BE055283FBAE700E3F52C /* Feature2 */,
 				032BE04C283FAD7C00E3F52C /* Four */,
 				032BE049283FACA500E3F52C /* Constant */,
 				032BE046283FAA8C00E3F52C /* Third */,
@@ -161,6 +164,14 @@
 				032BE04D283FAD9600E3F52C /* FourthViewController.swift */,
 			);
 			path = Four;
+			sourceTree = "<group>";
+		};
+		032BE055283FBAE700E3F52C /* Feature2 */ = {
+			isa = PBXGroup;
+			children = (
+				032BE056283FBB0200E3F52C /* FeatureViewController.swift */,
+			);
+			path = Feature2;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -295,6 +306,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				030982072835C2D9005E34F4 /* ViewController.swift in Sources */,
+				032BE057283FBB0200E3F52C /* FeatureViewController.swift in Sources */,
 				030982032835C2D9005E34F4 /* AppDelegate.swift in Sources */,
 				032BE048283FAAB700E3F52C /* ThirdViewController.swift in Sources */,
 				032BE04E283FAD9600E3F52C /* FourthViewController.swift in Sources */,

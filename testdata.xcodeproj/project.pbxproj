@@ -18,6 +18,7 @@
 		030982272835C2DC005E34F4 /* testdataUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 030982262835C2DC005E34F4 /* testdataUITests.swift */; };
 		030982292835C2DC005E34F4 /* testdataUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 030982282835C2DC005E34F4 /* testdataUITestsLaunchTests.swift */; };
 		032BE048283FAAB700E3F52C /* ThirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 032BE047283FAAB700E3F52C /* ThirdViewController.swift */; };
+		032BE04B283FACC400E3F52C /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 032BE04A283FACC400E3F52C /* Constant.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,7 @@
 		030982262835C2DC005E34F4 /* testdataUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = testdataUITests.swift; sourceTree = "<group>"; };
 		030982282835C2DC005E34F4 /* testdataUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = testdataUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		032BE047283FAAB700E3F52C /* ThirdViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdViewController.swift; sourceTree = "<group>"; };
+		032BE04A283FACC400E3F52C /* Constant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +108,7 @@
 				030982022835C2D9005E34F4 /* AppDelegate.swift */,
 				030982042835C2D9005E34F4 /* SceneDelegate.swift */,
 				030982062835C2D9005E34F4 /* ViewController.swift */,
+				032BE049283FACA500E3F52C /* Constant */,
 				032BE046283FAA8C00E3F52C /* Third */,
 				030982082835C2D9005E34F4 /* Main.storyboard */,
 				0309820E2835C2DB005E34F4 /* Assets.xcassets */,
@@ -139,6 +142,14 @@
 				032BE047283FAAB700E3F52C /* ThirdViewController.swift */,
 			);
 			path = Third;
+			sourceTree = "<group>";
+		};
+		032BE049283FACA500E3F52C /* Constant */ = {
+			isa = PBXGroup;
+			children = (
+				032BE04A283FACC400E3F52C /* Constant.swift */,
+			);
+			path = Constant;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -277,6 +288,7 @@
 				032BE048283FAAB700E3F52C /* ThirdViewController.swift in Sources */,
 				030982052835C2D9005E34F4 /* SceneDelegate.swift in Sources */,
 				0309820D2835C2D9005E34F4 /* testdata.xcdatamodeld in Sources */,
+				032BE04B283FACC400E3F52C /* Constant.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

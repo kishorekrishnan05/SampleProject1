@@ -17,6 +17,7 @@
 		0309821D2835C2DC005E34F4 /* testdataTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0309821C2835C2DC005E34F4 /* testdataTests.swift */; };
 		030982272835C2DC005E34F4 /* testdataUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 030982262835C2DC005E34F4 /* testdataUITests.swift */; };
 		030982292835C2DC005E34F4 /* testdataUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 030982282835C2DC005E34F4 /* testdataUITestsLaunchTests.swift */; };
+		033752792837E3930087D05D /* secondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 033752782837E3930087D05D /* secondViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		030982222835C2DC005E34F4 /* testdataUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = testdataUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		030982262835C2DC005E34F4 /* testdataUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = testdataUITests.swift; sourceTree = "<group>"; };
 		030982282835C2DC005E34F4 /* testdataUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = testdataUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		033752782837E3930087D05D /* secondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = secondViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +106,7 @@
 				030982022835C2D9005E34F4 /* AppDelegate.swift */,
 				030982042835C2D9005E34F4 /* SceneDelegate.swift */,
 				030982062835C2D9005E34F4 /* ViewController.swift */,
+				032BE045283FAA2100E3F52C /* Second */,
 				030982082835C2D9005E34F4 /* Main.storyboard */,
 				0309820E2835C2DB005E34F4 /* Assets.xcassets */,
 				030982102835C2DB005E34F4 /* LaunchScreen.storyboard */,
@@ -128,6 +131,14 @@
 				030982282835C2DC005E34F4 /* testdataUITestsLaunchTests.swift */,
 			);
 			path = testdataUITests;
+			sourceTree = "<group>";
+		};
+		032BE045283FAA2100E3F52C /* Second */ = {
+			isa = PBXGroup;
+			children = (
+				033752782837E3930087D05D /* secondViewController.swift */,
+			);
+			path = Second;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -264,6 +275,7 @@
 				030982072835C2D9005E34F4 /* ViewController.swift in Sources */,
 				030982032835C2D9005E34F4 /* AppDelegate.swift in Sources */,
 				030982052835C2D9005E34F4 /* SceneDelegate.swift in Sources */,
+				033752792837E3930087D05D /* secondViewController.swift in Sources */,
 				0309820D2835C2D9005E34F4 /* testdata.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

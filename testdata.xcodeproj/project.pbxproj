@@ -20,6 +20,7 @@
 		032BE048283FAAB700E3F52C /* ThirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 032BE047283FAAB700E3F52C /* ThirdViewController.swift */; };
 		032BE04B283FACC400E3F52C /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 032BE04A283FACC400E3F52C /* Constant.swift */; };
 		032BE04E283FAD9600E3F52C /* FourthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 032BE04D283FAD9600E3F52C /* FourthViewController.swift */; };
+		03671272283FED4700C5E36D /* Task2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03671271283FED4700C5E36D /* Task2ViewController.swift */; };
 		0367126F283FECFA00C5E36D /* TaskViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0367126E283FECFA00C5E36D /* TaskViewController.swift */; };
 /* End PBXBuildFile section */
 
@@ -58,6 +59,7 @@
 		032BE047283FAAB700E3F52C /* ThirdViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdViewController.swift; sourceTree = "<group>"; };
 		032BE04A283FACC400E3F52C /* Constant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
 		032BE04D283FAD9600E3F52C /* FourthViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FourthViewController.swift; sourceTree = "<group>"; };
+		03671271283FED4700C5E36D /* Task2ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Task2ViewController.swift; sourceTree = "<group>"; };
 		0367126E283FECFA00C5E36D /* TaskViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -112,6 +114,7 @@
 				030982022835C2D9005E34F4 /* AppDelegate.swift */,
 				030982042835C2D9005E34F4 /* SceneDelegate.swift */,
 				030982062835C2D9005E34F4 /* ViewController.swift */,
+				03671270283FED3500C5E36D /* TAsk2 */,
 				0367126D283FECEA00C5E36D /* Task1 */,
 				032BE04C283FAD7C00E3F52C /* Four */,
 				032BE049283FACA500E3F52C /* Constant */,
@@ -166,6 +169,12 @@
 			path = Four;
 			sourceTree = "<group>";
 		};
+		03671270283FED3500C5E36D /* TAsk2 */ = {
+			isa = PBXGroup;
+			children = (
+				03671271283FED4700C5E36D /* Task2ViewController.swift */,
+			);
+			path = TAsk2;
 		0367126D283FECEA00C5E36D /* Task1 */ = {
 			isa = PBXGroup;
 			children = (
@@ -305,6 +314,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				03671272283FED4700C5E36D /* Task2ViewController.swift in Sources */,
 				030982072835C2D9005E34F4 /* ViewController.swift in Sources */,
 				030982032835C2D9005E34F4 /* AppDelegate.swift in Sources */,
 				032BE048283FAAB700E3F52C /* ThirdViewController.swift in Sources */,
